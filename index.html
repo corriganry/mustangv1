@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author:  Ryan Corrigan
+    Class:   Web & Distributed Programming 
+    Project: Mustang V1
+    Description: This application is Mustang V1 that reads, verifies, and displays the personal information of everyone in the class
+-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Mustang V1</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body onload="initApplication()">  
+        <h1>Mustang V1</h1>         
+        <button onclick="loadIndex()">Load Index</button><br>
+        Index:<p id="indexID"></p>
+
+        <button onclick="loadContacts()">Load Contacts</button><br>
+        Contacts:<p id="contactsID"></p>
+
+        <p id="statusID"></p><br>
+
+        <button onclick="logContacts()">Log Contacts to Console</button><br><br>
+
+        <button onclick="showContacts()">Show Contacts</button>
+        <p id="contacts"></p>
+    </body>
+</html>
